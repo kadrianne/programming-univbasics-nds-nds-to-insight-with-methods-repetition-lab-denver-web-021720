@@ -42,7 +42,7 @@ def total_gross(source)
   
   while dir_index < dir_names.length do
     dir_name = dir_names[dir_index]
-    grandtotal += dir_totals[dir_name] # calling director name from list_of_directors to use as key to access directors_totals hash calling gross value for each director
+    grandtotal += dir_total[dir_name] # calling director name from list_of_directors to use as key to access directors_totals hash calling gross value for each director
     dir_index += 1
   end
   grandtotal
